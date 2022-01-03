@@ -1,0 +1,11 @@
+
+*.config
+*.config
+*.dll
+*.targets
+*.exe
+*.rsp
+*.force
+*.cache
+*.dll
+*.cache
