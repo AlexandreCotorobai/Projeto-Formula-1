@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Principal\index.html" />
+    <Content Include="Principal\seg.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
