@@ -124,8 +124,17 @@
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+<<<<<<< Updated upstream
     <Content Include="Principal\index.html" />
     <Content Include="Principal\styles.css" />
+=======
+    <Content Include="Principal\Images\F1 Formula 1.png" />
+    <Content Include="Principal\Images\F1.jpg" />
+    <Content Include="Principal\Images\F2.jpg" />
+    <Content Include="Principal\Images\F3.jpg" />
+    <Content Include="Principal\HTML\index.html" />
+    <Content Include="Principal\CSS\main.css" />
+>>>>>>> Stashed changes
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />

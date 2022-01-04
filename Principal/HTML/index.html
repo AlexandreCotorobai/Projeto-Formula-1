@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>F1</title>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="../Scripts/knockout-3.5.1.js"></script>
+    <script src="../Scripts/jquery-3.6.0.min.js"></script>
+<<<<<<< Updated upstream:Principal/index.html
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+                         height="15"
+                         alt="MDB Logo"
+                         loading="lazy" />
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <!-- Icon -->
+                <a class="text-reset me-3" href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+
+                <!-- Notifications -->
+                <a class="text-reset me-3 dropdown-toggle hidden-arrow"
+                   href="#"
+                   id="navbarDropdownMenuLink"
+                   role="button"
+                   data-mdb-toggle="dropdown"
+                   aria-expanded="false">
+                    <i class="fas fa-bell"></i>
+                    <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="navbarDropdownMenuLink">
+                    <li>
+                        <a class="dropdown-item" href="#">Some news</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Another news</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                </ul>
+
+                <!-- Avatar -->
+                <a class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                   href="#"
+                   id="navbarDropdownMenuLink"
+                   role="button"
+                   data-mdb-toggle="dropdown"
+                   aria-expanded="false">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                         class="rounded-circle"
+                         height="25"
+                         alt="Black and White Portrait of a Man"
+                         loading="lazy" />
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="navbarDropdownMenuLink">
+                    <li>
+                        <a class="dropdown-item" href="#">My profile</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Settings</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </li>
+                </ul>
+=======
+    <script src="../Scripts/bootstrap.js"></script>
+    <link href="../CSS/main.css" rel="stylesheet" />
+    <link href="../../Content/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!--INICIO NAVBAR-->
+    <nav class="fixed-top navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index2.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Drivers</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-auto order-0">
+                <a class="navbar-brand mx-auto" href="#">
+                    F1<img style="max-width: 55px;" src="..\Images\F1 Formula 1.png" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Drivers</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">DriversA</a></li>
+                            <li><a class="dropdown-item" href="#">DriversB</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WHATEVERx</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FIM NAVBAR -->
+    <!--INICIO CARROUSEL-->
+    <div class="container-fluid">
+        <div id="carouselMain" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="../Images/F1.jpg" class="d-block w-100" alt="Wallpaper IMG1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Ayrton Senna</h5>
+                        <p>“Na adversidade, alguns desistem, enquanto outros batem recordes”</p>
+                        <a href="#" class="main-btn">Read more</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../Images/F2.jpg" class="d-block w-100" alt="Wallpaper IMG2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Michael Schumacher</h5>
+                        <p>“Ayrton Senna foi quem me inspirou na vida. Quando o vi numa prova de kart na Holanda, nós éramos crianças. Na ocasião, eu já admirei o seu jeito de pilotar”</p>
+                        <a href="#" class="main-btn">Read more</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../Images/F3.jpg" class="d-block w-100" alt="Wallpaper IMG3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Enzo Ferrari</h5>
+                        <p>“A vitória mais bela é sempre a próxima”</p>
+                        <a href="#" class="main-btn">Read more</a>
+                    </div>
+                </div>
+>>>>>>> Stashed changes:Principal/HTML/index.html
+            </div>
+            <!-- Right elements -->
+        </div>
+<<<<<<< Updated upstream:Principal/index.html
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+=======
+    </div>
+    <!--FIM CARROUSEL-->
+    <!-- INICIO FOOTER-->
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.144);">
+            <a class="text-dark" href="http://192.168.160.58/Formula1">API</a>
+            <a>&copy; Website developed by Alexandre Cotorobai and João Dourado</a>
+        </div>
+    </footer>
+    <!-- FIM FOOTER -->
+>>>>>>> Stashed changes:Principal/HTML/index.html
+</body>
+</html>
