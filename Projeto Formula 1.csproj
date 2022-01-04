@@ -124,6 +124,9 @@
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Principal\F1.jpg" />
+    <Content Include="Principal\F2.jpg" />
+    <Content Include="Principal\F3.jpg" />
     <Content Include="Principal\index.html" />
     <Content Include="Principal\styles.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
